@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CCC43F981C1C098E009C9F50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC43F971C1C098E009C9F50 /* main.m */; };
 		CCC43F9B1C1C098E009C9F50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC43F9A1C1C098E009C9F50 /* AppDelegate.m */; };
-		CCC43F9E1C1C098E009C9F50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC43F9D1C1C098E009C9F50 /* ViewController.m */; };
 		CCC43FA11C1C098E009C9F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC43F9F1C1C098E009C9F50 /* Main.storyboard */; };
 		CCC43FA41C1C098E009C9F50 /* _2_12______.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCC43FA21C1C098E009C9F50 /* _2_12______.xcdatamodeld */; };
 		CCC43FA61C1C098E009C9F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC43FA51C1C098E009C9F50 /* Assets.xcassets */; };
@@ -26,6 +25,12 @@
 		CCC43FE01C1C0A51009C9F50 /* 演员.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCC43FD61C1C0A51009C9F50 /* 演员.mp3 */; };
 		CCC43FE11C1C0A51009C9F50 /* 红颜劫.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CCC43FD71C1C0A51009C9F50 /* 红颜劫.lrc */; };
 		CCC43FE21C1C0A51009C9F50 /* 红颜劫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCC43FD81C1C0A51009C9F50 /* 红颜劫.mp3 */; };
+		CCC43FEB1C1E66C3009C9F50 /* songViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC43FE91C1E66C3009C9F50 /* songViewController.m */; };
+		CCC43FEC1C1E66C3009C9F50 /* songViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC43FEA1C1E66C3009C9F50 /* songViewController.xib */; };
+		CCC43FEF1C1E6A3F009C9F50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC43FEE1C1E6A3F009C9F50 /* ViewController.m */; };
+		CCC43FF31C1E6D40009C9F50 /* SongListheadel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC43FF21C1E6D40009C9F50 /* SongListheadel.m */; };
+		CCC43FF61C1E6E1A009C9F50 /* songModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC43FF51C1E6E1A009C9F50 /* songModel.m */; };
+		CCC43FF91C1E7383009C9F50 /* songPlayhandel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC43FF81C1E7383009C9F50 /* songPlayhandel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +55,6 @@
 		CCC43F971C1C098E009C9F50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCC43F991C1C098E009C9F50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CCC43F9A1C1C098E009C9F50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CCC43F9C1C1C098E009C9F50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CCC43F9D1C1C098E009C9F50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CCC43FA01C1C098E009C9F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCC43FA31C1C098E009C9F50 /* _2_12______.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_2_12______.xcdatamodel"; sourceTree = "<group>"; };
 		CCC43FA51C1C098E009C9F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +76,17 @@
 		CCC43FD61C1C0A51009C9F50 /* 演员.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "演员.mp3"; sourceTree = "<group>"; };
 		CCC43FD71C1C0A51009C9F50 /* 红颜劫.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "红颜劫.lrc"; sourceTree = "<group>"; };
 		CCC43FD81C1C0A51009C9F50 /* 红颜劫.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "红颜劫.mp3"; sourceTree = "<group>"; };
+		CCC43FE81C1E66C3009C9F50 /* songViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = songViewController.h; sourceTree = "<group>"; };
+		CCC43FE91C1E66C3009C9F50 /* songViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = songViewController.m; sourceTree = "<group>"; };
+		CCC43FEA1C1E66C3009C9F50 /* songViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = songViewController.xib; sourceTree = "<group>"; };
+		CCC43FED1C1E6A3F009C9F50 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCC43FEE1C1E6A3F009C9F50 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCC43FF11C1E6D40009C9F50 /* SongListheadel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongListheadel.h; sourceTree = "<group>"; };
+		CCC43FF21C1E6D40009C9F50 /* SongListheadel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongListheadel.m; sourceTree = "<group>"; };
+		CCC43FF41C1E6E1A009C9F50 /* songModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = songModel.h; sourceTree = "<group>"; };
+		CCC43FF51C1E6E1A009C9F50 /* songModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = songModel.m; sourceTree = "<group>"; };
+		CCC43FF71C1E7383009C9F50 /* songPlayhandel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = songPlayhandel.h; sourceTree = "<group>"; };
+		CCC43FF81C1E7383009C9F50 /* songPlayhandel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = songPlayhandel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,10 +137,11 @@
 		CCC43F951C1C098E009C9F50 /* 12.12 音乐播放器 */ = {
 			isa = PBXGroup;
 			children = (
+				CCC43FF01C1E6D08009C9F50 /* tool */,
+				CCC43FE71C1E666E009C9F50 /* view */,
+				CCC43FE61C1E6663009C9F50 /* controller */,
+				CCC43FE51C1E665D009C9F50 /* model */,
 				CCC43FCC1C1C09A8009C9F50 /* Lyrics analysis */,
-				CCC43F9C1C1C098E009C9F50 /* ViewController.h */,
-				CCC43F9D1C1C098E009C9F50 /* ViewController.m */,
-				CCC43F9F1C1C098E009C9F50 /* Main.storyboard */,
 				CCC43FCD1C1C09F5009C9F50 /* add materials */,
 				CCC43F961C1C098E009C9F50 /* Supporting Files */,
 			);
@@ -196,6 +211,46 @@
 			);
 			name = Songs;
 			path = ../../../Songs;
+			sourceTree = "<group>";
+		};
+		CCC43FE51C1E665D009C9F50 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CCC43FF41C1E6E1A009C9F50 /* songModel.h */,
+				CCC43FF51C1E6E1A009C9F50 /* songModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		CCC43FE61C1E6663009C9F50 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCC43FED1C1E6A3F009C9F50 /* ViewController.h */,
+				CCC43FEE1C1E6A3F009C9F50 /* ViewController.m */,
+				CCC43FE81C1E66C3009C9F50 /* songViewController.h */,
+				CCC43FE91C1E66C3009C9F50 /* songViewController.m */,
+				CCC43FEA1C1E66C3009C9F50 /* songViewController.xib */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		CCC43FE71C1E666E009C9F50 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CCC43F9F1C1C098E009C9F50 /* Main.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		CCC43FF01C1E6D08009C9F50 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				CCC43FF11C1E6D40009C9F50 /* SongListheadel.h */,
+				CCC43FF21C1E6D40009C9F50 /* SongListheadel.m */,
+				CCC43FF71C1E7383009C9F50 /* songPlayhandel.h */,
+				CCC43FF81C1E7383009C9F50 /* songPlayhandel.m */,
+			);
+			name = tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +365,7 @@
 				CCC43FA91C1C098E009C9F50 /* LaunchScreen.storyboard in Resources */,
 				CCC43FDF1C1C0A51009C9F50 /* 演员.lrc in Resources */,
 				CCC43FA61C1C098E009C9F50 /* Assets.xcassets in Resources */,
+				CCC43FEC1C1E66C3009C9F50 /* songViewController.xib in Resources */,
 				CCC43FA11C1C098E009C9F50 /* Main.storyboard in Resources */,
 				CCC43FE21C1C0A51009C9F50 /* 红颜劫.mp3 in Resources */,
 				CCC43FD91C1C0A51009C9F50 /* SongsInfos.plist in Resources */,
@@ -338,10 +394,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCC43F9E1C1C098E009C9F50 /* ViewController.m in Sources */,
 				CCC43FA41C1C098E009C9F50 /* _2_12______.xcdatamodeld in Sources */,
 				CCC43F9B1C1C098E009C9F50 /* AppDelegate.m in Sources */,
+				CCC43FF61C1E6E1A009C9F50 /* songModel.m in Sources */,
 				CCC43F981C1C098E009C9F50 /* main.m in Sources */,
+				CCC43FF91C1E7383009C9F50 /* songPlayhandel.m in Sources */,
+				CCC43FEB1C1E66C3009C9F50 /* songViewController.m in Sources */,
+				CCC43FEF1C1E6A3F009C9F50 /* ViewController.m in Sources */,
+				CCC43FF31C1E6D40009C9F50 /* SongListheadel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +541,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "12.12 音乐播放器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "qingyu.-2-12------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -492,6 +553,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "12.12 音乐播放器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "qingyu.-2-12------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -565,6 +627,7 @@
 				CCC43FC51C1C098E009C9F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCC43FC61C1C098E009C9F50 /* Build configuration list for PBXNativeTarget "12.12 音乐播放器Tests" */ = {
 			isa = XCConfigurationList;
@@ -573,6 +636,7 @@
 				CCC43FC81C1C098E009C9F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCC43FC91C1C098E009C9F50 /* Build configuration list for PBXNativeTarget "12.12 音乐播放器UITests" */ = {
 			isa = XCConfigurationList;
@@ -581,6 +645,7 @@
 				CCC43FCB1C1C098E009C9F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

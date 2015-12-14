@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  songViewController.h
 //  12.12 音乐播放器
 //
 //  Created by qingyun on 15/12/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface songViewController : UIViewController
 
 @end
